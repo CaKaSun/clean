@@ -48,8 +48,8 @@ $(window).on("load", function () {
     else{
         $('#pagepiling').pagepiling({
             direction: 'vertical',
-            sectionsColor: ['#171717', '#171717', '#171717', '#171717', '#171717', '#171717'],
-            anchors: ['home-banner', 'about', 'team', 'portfolio', 'blog', 'contact'],
+            sectionsColor: ['#171717', '#171717', '#171717', '#171717', '#171717'],
+            anchors: ['home-banner', 'about', 'portfolio', 'blog', 'contact'],
             scrollingSpeed: 500,
             menu: '#menu',
             easing: 'linear',
@@ -59,7 +59,7 @@ $(window).on("load", function () {
             navigation: {
                 'bulletsColor': '#535353',
                 'position': 'left',
-                'tooltips': ['Home', 'About Service', 'Our Team', 'Portfolio', 'Our Blog', 'Contact'],
+                'tooltips': ['Home', 'About Service', 'Portfolio', 'Our Blog', 'Contact'],
             },
 
             //events
